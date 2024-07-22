@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY WINE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <!-- SECTION-1 -->
+    <section class="section-1">
+      <div class="section-1-container">
+        <!-- NAVIGATION -->
+        <div class="nav-container">
+          <nav>
+            <div class="logo-container">
+              <a href="">
+                <img src="./icons/LOGO.svg" />
+                <span>wine</span>
+              </a>
+            </div>
+
+            <ul class="menu">
+              <li class="menu-item" onclick="scrollToAboutUs()">
+                <a>About Us</a>
+              </li>
+              <li class="menu-item" onclick="scrollToAwards()">
+                <a>Out Awards</a>
+              </li>
+              <li class="menu-item" onclick="scrollToPeople()">
+                <a>Our People</a>
+              </li>
+              <li class="menu-item" onclick="scrollToGallery()">
+                <a>Gallery</a>
+              </li>
+              <li class="menu-item" onclick="scrollToInfo()"><a>Info</a></li>
+            </ul>
+
+            <div class="bars-container">
+              <div class="bars">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <!-- HERO CONTENT -->
+        <div class="section-1-content-container">
+          <!-- HOME -->
+          <div class="home-container">
+            <div class="home">
+              <div class="home-title">
+                <div class="image">
+                  <div class="line"></div>
+                  <img src="./icons/Grapes 80x70.svg" />
+                  <div class="line"></div>
+                </div>
+                <span class="title-description">discover grapes</span>
+              </div>
+
+              <div class="home-text">
+                <h1>
+                  <span>My Wine</span>
+                  <span>Original</span>
+                </h1>
+              </div>
+
+              <div class="home-buttons">
+                <h3>EXPLORE NOW</h3>
+                <div class="arrow-container" onclick="scrollToAboutUs()">
+                  <div class="arrow">
+                    <i class="fas fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END HOME -->
+
+            <!-- HOME-IMAGE -->
+            <div class="home-image">
+              <img src="./pics/WINE1.png" />
+              <div class="circle"></div>
+            </div>
+          </div>
+          <!-- END-HOME-CONTAINER -->
+
+          <!-- CAROUSEL -->
+          <div class="carousel">
+            <div class="arrow-left" onclick="carousel_prev()">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+            <span>01/03</span>
+            <div class="arrow-right" onclick="carousel_next()">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+          <!-- END CAROUSEL -->
+        </div>
+        <!-- END SECTION-1-CONTENT-CONTAINER -->
+      </div>
+      <!-- END SECTION-1-CONTAINER -->
+    </section>
+    <!-- END SECTION-1 -->
+
+    <!-- SECTION-2 -->
+    <section class="section-2">
+      <!--SECTION-2-TITLE  -->
+      <div class="section-2-title">
+        <div class="title-image">
+          <div class="image">
+            <div class="line"></div>
+            <img src="./icons/Grapes 80x70.svg" />
+            <div class="line"></div>
+          </div>
+          <span class="title-description">Original Recipy</span>
+        </div>
+        <div class="title-text">
+          <h1>
+            <span>More Than</span>
+            <span>Wine</span>
+          </h1>
+          <p>
+            In 1862, James Malcom , The visionary father of My Wine winemaking
+            established the winery that started it all.
+          </p>
+        </div>
+      </div>
+
+      <!--SECTION-2-CONTENT  -->
+      <div class="section-2-content">
+        <div class="content-items-1">
+          <div class="item">
+            <div class="circle">
+              <img src="./background/Circle.svg" />
+            </div>
+            <div class="text">
+              <div class="title">Harvesting</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum iste aliquid magni et vel maxime illo, nulla sequi
+                tempore labore.
+              </p>
+            </div>
+            <div class="icon">
+              <img src="./icons/Wine80x70.svg" />
+            </div>
+          </div>
+          <div class="item">
+            <div class="text">
+              <div class="title">Clarification</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum iste aliquid magni et vel maxime illo, nulla sequi
+                tempore labore.
+              </p>
+            </div>
+            <div class="icon">
+              <img src="./icons/Barel 80x70.svg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="content-items-2">
+          <div class="img-container">
+            <img src="./pics/WINE2.png" />
+          </div>
+        </div>
+
+        <div class="content-items-3">
+          <div class="item">
+            <div class="text">
+              <div class="title">Fermentation</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum iste aliquid magni et vel maxime illo, nulla sequi
+                tempore labore.
+              </p>
+            </div>
+            <div class="icon">
+              <img src="./icons/Barel2 80x70.svg" />
+            </div>
+          </div>
+          <div class="item">
+            <div class="text">
+              <div class="title">Aging</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum iste aliquid magni et vel maxime illo, nulla sequi
+                tempore labore.
+              </p>
+            </div>
+            <div class="icon"><img src="./icons/WineBottle 80x70.svg" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION-3 -->
+    <section class="section-3">
+      <!-- SECTION-3 TITLE -->
+      <div class="section-3-title">
+        <h1>
+          <span>Our</span>
+          <span>Awards</span>
+          <span> & Achievments</span>
+        </h1>
+        <p class="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, cum!
+        </p>
+      </div>
+
+      <!-- SECTION-3 CONTENT -->
+      <div class="section-3-content">
+        <div class="item1">
+          <img src="./pics/wine.jpg" alt="" />
+        </div>
+        <div class="item2">
+          <div class="infos">
+            <div class="info">
+              <span>5</span>
+              <span>Varietals</span>
+            </div>
+            <div class="info">
+              <span>2.2K</span>
+              <span>Happy Customers</span>
+            </div>
+          </div>
+
+          <div class="infos">
+            <div class="info">
+              <span>18K</span>
+              <span>Wines Produced</span>
+            </div>
+            <div class="info">
+              <span>52</span>
+              <span>Awards Won</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION-4 -->
+    <section class="section-4">
+      <div class="section-4-container">
+        <!-- SECTION-4 TITLE -->
+        <div class="section-4-title">
+          <div class="title-image">
+            <div class="image">
+              <div class="line"></div>
+              <img src="./icons/Grapes 80x70.svg" />
+              <div class="line"></div>
+            </div>
+            <span>PEOPLE BEHIND GREATNESS</span>
+          </div>
+
+          <div class="title-text">
+            <h1>
+              <span>Our</span>
+              <span>People</span>
+            </h1>
+          </div>
+        </div>
+
+        <!-- SECTION-4 CONTENT -->
+        <div class="section-4-content">
+          <div class="items">
+            <div class="item">
+              <div class="img-container">
+                <img src="./pics/people1_1920.jpg" />
+              </div>
+              <div class="description">
+                <span>Name</span>
+                <span>Job</span>
+                <div class="socials">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-container">
+                <img src="./pics/people2_1920.jpg" />
+              </div>
+              <div class="description">
+                <span>Name</span>
+                <span>Job</span>
+                <div class="socials">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-container">
+                <img src="./pics/people3_1920.jpg" />
+              </div>
+              <div class="description">
+                <span>Name</span>
+                <span>Job</span>
+                <div class="socials">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION-5 -->
+    <section class="section-5">
+      <!-- SECTION-5-TITLE -->
+      <div class="section-5-title">
+        <div class="title-image">
+          <div class="image">
+            <div class="line"></div>
+            <img src="./icons/Grapes 80x70.svg" />
+            <div class="line"></div>
+          </div>
+          <span>MEMORIES MADE WITH US</span>
+        </div>
+
+        <div class="title-text">
+          <h1>
+            <span>Our</span>
+            <span>Gallery</span>
+          </h1>
+        </div>
+      </div>
+
+      <!-- SECTION-5-CONTENT -->
+      <div class="section-5-content">
+        <div class="images-container">
+          <div class="image">
+            <img src="./gallery/gallery2_1920x2300.jpg" />
+          </div>
+          <div class="image">
+            <img src="./gallery/gallery1_1920x1080.jpg" />
+          </div>
+          <div class="image">
+            <img src="./gallery/gallery3_1920x1080.jpg" />
+          </div>
+          <div class="image">
+            <img src="./gallery/gallery4_1920x1080.jpg" />
+          </div>
+          <div class="image">
+            <img src="./gallery/gallery5_1920x1080.jpg" />
+          </div>
+          <div class="image">
+            <img src="./gallery/gallery6_1920x2300.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="content">
+        <div class="info">
+          <ul>
+            <li>Location X 32</li>
+            <li>+123 456 789</li>
+          </ul>
+        </div>
+        <div class="about">
+          <ul>
+            <li><a href="">Our History</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Our Blogs</a></li>
+          </ul>
+        </div>
+        <div class="help">
+          <ul>
+            <li><a href="">Our Gallery</a></li>
+            <li><a href="">About Team</a></li>
+            <li><a href="">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">©Since 2021. All Rights Reserved.</div>
+      <div class="footer-img">
+        <img src="./icons/FooterSvg.svg" />
+      </div>
+    </footer>
+  </body>
+  <script src="./app.js"></script>
+</html>
